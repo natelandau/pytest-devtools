@@ -157,6 +157,7 @@ To keep the codes for a single test, mark it with `@pytest.mark.keep_ansi`:
 ```python
 import pytest
 
+
 @pytest.mark.keep_ansi
 def test_color_codes(capsys):
     print("\x1b[32mgreen\x1b[0m")
